@@ -15,3 +15,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Moves .zshrc to use
 rm ~/.zshrc
 cp ./.zshrc ~/
+
+echo "Now you have to log out and login for the changes to update. 
+You might also need to install a custom powerline font for your terminal."
