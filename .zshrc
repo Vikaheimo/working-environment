@@ -14,10 +14,10 @@ zstyle ":omz:update" mode reminder
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
-plugins=(git)
+plugins=(git colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
-
+source ~/.shell-plugins/lscolors.sh
 # Aliases
 alias ls="ls --color=auto -lah"
 alias update="sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get autoremove -y; sudo apt-get autoclean -y"
@@ -59,4 +59,3 @@ function extract_and_remove {
   rm -f $1
 }
 alias extrr="extract_and_remove "
-
