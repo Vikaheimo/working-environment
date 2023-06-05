@@ -1,5 +1,10 @@
 #!/bin/sh
-# Please have ZSH installed beforehand!
+# Checks if ZSH is installed to avoid errors
+if ! command -v zsh
+then
+    echo "Please install ZSH before continuing"
+    exit
+fi
 
 # Sets default shell to use ZSH
 chsh -s $(which zsh)
@@ -8,7 +13,5 @@ chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Moves .zshrc to use
-mv ~/.zshrc ~/before/
+rm ~/.zshrc
 cp ./.zshrc ~/
-
-
