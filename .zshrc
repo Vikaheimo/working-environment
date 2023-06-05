@@ -1,6 +1,6 @@
 # Oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="agnoster"
+ZSH_THEME="re5et"
 CASE_SENSITIVE="true"
 zstyle ":omz:update" mode reminder 
 # Uncomment the following line if pasting URLs and other text is messed up.
