@@ -17,7 +17,10 @@ zstyle ":omz:update" mode reminder
 plugins=(git colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
+
+# Custom source-files
 source ~/.shell-plugins/lscolors.sh
+
 # Aliases
 alias ls="ls --color=auto -lah"
 alias update="sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get autoremove -y; sudo apt-get autoclean -y"
