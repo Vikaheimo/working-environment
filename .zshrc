@@ -23,7 +23,7 @@ source ~/.shell-plugins/lscolors.sh
 
 # Aliases
 alias ls="ls --color=auto -lah"
-alias update="sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get autoremove -y; sudo apt-get autoclean -y"
+alias update="sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get autoremove -y; sudo apt-get autoclean -y; omz update"
 alias cls="clear; ls"
 
 # Foud from https://gist.github.com/hightemp/5071909#file-bash-aliases-L3
